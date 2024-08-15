@@ -58,4 +58,9 @@ Key Takeaways for Sorting Data
     NOT BETWEEN Operator:
         Filters out results that fall within the specified range.
         Example: SELECT * FROM table_name WHERE column NOT BETWEEN value1 AND value2;
-
+---
+##### Notes from software class
+> 2^10 == 1024 ~= 10^3 
+> 2^32 == 2^2 * (10^3)^3
+>               10^9
+---
