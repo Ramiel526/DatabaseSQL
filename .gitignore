@@ -1,0 +1,15 @@
+# Ignore configuration files with sensitive information
+Configurations/*.conf
+Configurations/*.ini
+
+# Ignore temporary files
+Temp/
+
+# Ignore system files
+*.log
+*.tmp
+*.bak
+
+# Ignore VSCode settings (if you use VSCode)
+.vscode/
+
