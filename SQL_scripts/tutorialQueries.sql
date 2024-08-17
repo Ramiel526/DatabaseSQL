@@ -12,12 +12,15 @@ SELECT CUSTOMER_NAME, CITY, BALANCE FROM customer WHERE CITY = 'Fullton';
 
 -- add the <> 'not' character return queries not in fullton
 SELECT CUSTOMER_NAME, CITY, BALANCE FROM customer WHERE CITY <> 'Fullton';
+
 -- filtering data w/ WHERE on date and number columns
 -- query 6 
 --single column
 SELECT ORDER_NUM, ORDER_DATE, CUSTOMER_NUM FROM orders ORDER BY ORDER_DATE ASC;
+
 --multi column
 SELECT ORDER_NUM, ORDER_DATE, CUSTOMER_NUM FROM orders ORDER BY ORDER_DATE DESC, ORDER_NUM ASC;
+
 -- Sort orders by date in ascending order
 SELECT ORDER_NUM, ORDER_DATE, CUSTOMER_NUM FROM orders ORDER BY ORDER_DATE ASC;
 
@@ -25,15 +28,12 @@ SELECT ORDER_NUM, ORDER_DATE, CUSTOMER_NUM FROM orders ORDER BY ORDER_DATE ASC;
 SELECT ORDER_NUM, ORDER_DATE, CUSTOMER_NUM FROM orders ORDER BY ORDER_DATE DESC, ORDER_NUM ASC;
 -- 'and' & 'or' operators are used sql to combine multiple conditions in a 'where' clause
 -- and requires all conditions while or requries at least one. 
-
 SELECT CUSTOMER_NAME, CITY, BALANCE FROM customer WHERE CITY = 'Fullton' AND BALANCE > 1000;
-
 SELECT CUSTOMER_NAME, CITY, BALANCE FROM customer WHERE CITY = 'Fullton' OR BALANCE > 1000;
 
 -- using WHERE with IN and BETWEEN clauses
 -- 'IN' allows you to specify multiple values in a 'WHERE' clause
 -- 'BETWEEN' allows you to filter the result set within a range of values
-
 -- Select customers in Fullton or Mesa
 SELECT CUSTOMER_NAME, CITY, BALANCE FROM customer WHERE CITY IN ('Fullton', 'Mesa');
 
