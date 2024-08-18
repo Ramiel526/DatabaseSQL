@@ -40,7 +40,7 @@ Key Takeaways for Sorting Data
 
     AND Operator:
         Requires all conditions to be true.
-        Example: SELECT * FROM table_name WHERE column1 = value1 AND column2 > value2;
+        Example: ```SQL SELECT * FROM table_name WHERE column1 = value1 AND column2 > value2; ```
     OR Operator:
         Requires at least one condition to be true.
         Example: SELECT * FROM table_name WHERE column1 = value1 OR column2 > value2;
