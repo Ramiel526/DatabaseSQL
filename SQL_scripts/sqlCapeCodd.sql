@@ -33,32 +33,28 @@ SELECT sku_description as sku_desc FROM inventory ORDER BY quantityonorder desc,
 SELECT sku_description, quantityonhand, quantityonorder FROM inventory WHERE  quantityonhand= 0 AND quantityonorder <> 0;
 SELECT sku_description, quantityonhand, quantityonorder FROM inventory WHERE  quantityonhand <> 0 AND quantityonorder = 0;
 SELECT sku_description, quantityonhand, quantityonorder FROM inventory WHERE  quantityonhand = 0 or quantityonorder = 0;
+
 -- using WHERE with IN and BETWEEN clauses
 -- 'IN' allows you to specify multiple values in a 'WHERE' clause
 -- 'BETWEEN' allows you to filter the result set within a range of values
 -- Select customers in Fullton or Mesa
-SELECT CUSTOMER_NAME, CITY, BALANCE FROM customer WHERE CITY IN ('Fullton', 'Mesa');
 
--- Select customers with a balance between 1000 and 3000
-SELECT CUSTOMER_NAME, BALANCE FROM customer WHERE BALANCE BETWEEN 1000 AND 3000;
+SELECT sku_description, department, dateonwebsite from catalog_sku_2015 where dateonwebsite between '01-feb-2015' and '01-dec-2015';
 
--- Select customers with a balance not between 1000 and 3000
-SELECT CUSTOMER_NAME, BALANCE FROM customer WHERE BALANCE NOT BETWEEN 1000 AND 3000;
+SELECT sku_description, department, dateonwebsite from catalog_sku_2015 where dateonwebsite not between '01-feb-2015' and '01-dec-2015';
 
 -- 'LIKE' operator used for pattern matching. Wildcards  '%' and '_' LIKE used for flexible conditions
 -- single character wildcard
-SELECT CUSTOMER_NAME, CITY FROM customer WHERE CITY LIKE 'C_ngaree';
+--SELECT CUSTOMER_NAME, CITY FROM customer WHERE CITY LIKE 'C_ngaree';
+SELECT * FROM warehouse where warehousecity LIKE '_tlanta';
 
 --multi char wildcards
-SELECT CUSTOMER_NAME, CITY FROM customer WHERE CUSTOMER_NAME LIKE '%Shop%';
-
---my experiment 
-select customer_name, city from customer where city like '%field%';
+SELECT * FROM inventory where sku_description LIKE '%tank%';
 
 -- Null
 -- Find customers with a NULL balance
-SELECT CUSTOMER_NAME, CITY, BALANCE FROM customer WHERE BALANCE IS NULL;
+SELECT * FROM catalog_sku_2015 WHERE catalogpage IS NULL;
 
 -- Select customers with a balance greater than the average balance
-SELECT CUSTOMER_NAME, BALANCE FROM customer WHERE BALANCE > (SELECT AVG(BALANCE) FROM customer);
+SELECT * FROM order_item WHERE quantity > (SELECT AVG(quantity) FROM order_item);
 
