@@ -1,4 +1,3 @@
--- HI ASHLEY !! 
 SELECT * FROM catalog_sku_2013;
 select * from inventory;
 select * from order_item;
