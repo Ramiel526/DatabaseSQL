@@ -9,6 +9,7 @@ Temp/
 *.log
 *.tmp
 *.bak
+*.idea
 
 # Ignore VSCode settings (if you use VSCode)
 .vscode/
