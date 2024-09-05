@@ -47,13 +47,10 @@ values (message_id_seq.nextval,
 select * from messages;
 
 -- create a table called club_time_spent 
-drop table phone;
+drop table club_time_spent;
 
 -- cols are student_id and time_in_minutes
-create table phone (
-
-student_id number primary key,
-time number, 
+create table club_time_spent(
 
 foreign key (student_id) references student(student_id));
 
