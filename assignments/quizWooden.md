@@ -259,6 +259,33 @@ select * from phone_table;
 
 > For the Student table create a history table that stores the old student row with timestamp (Sysdate in Oracle) on update of student row, using a PL/SQL procedure. Test this by updating a student row and thus creating an entry in the student-history table. Show the before and after of the tables.
 
+```SQL
+drop table student_history;
+
+-- create history table with the old student row w/ timestamp
+create table student_history ( 
+    old_student_id number,
+    old_name varchar2(20),
+    time_stamp timestamp default systimestamp, -- sysdate or systimestamp
+    foreign key (old_student_id) references student(student_id)
+);
+-- test by creating update in student row, should generate student_history table row as well.
+create or replace trigger student_update_history
+before update on student
+for each row
+begin
+insert into student_history (old_student_id, old_name, time_stamp)
+values ( :old.student_id, :old.name, systimestamp );
+end;
+/
+--test trigger
+update student
+set name = 'Bob Saget'
+where student_id = 1;
+
+select * from student_history;
+```
+
 # Q7: 
 
 > Create a View that shows the message-from (student), the message-to (student), their dobs, their phone and the message sent, and order by dob of message-from student. dob is a date column and not a string. Do a select from the View to show all the rows. dob should show as MM-DD-YYYY and phone-number should show in the format XXX-XXX-XXXX.
