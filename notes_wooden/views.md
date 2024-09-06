@@ -1,0 +1,1 @@
+Using CREATE OR REPLACE is often a practical choice when you expect to be modifying views or updating them over time. It prevents errors due to existing objects and allows for smooth creation and modification without manual dropping.
