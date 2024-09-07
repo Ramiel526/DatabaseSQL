@@ -77,6 +77,15 @@ select * from student;
 ```
 
 [![sqlOutput_TestConstraints]('')]: #
+#### Q2 Output
+
+> table STUDENT_HISTORY dropped.
+> table STUDENT_HISTORY created.
+> TRIGGER STUDENT_UPDATE_HISTORY compiled
+> 1 rows updated.
+> OLD_STUDENT_ID OLD_NAME             TIME_STAMP
+> -------------- -------------------- -------------------------------
+>              1 Bob Saget            06-SEP-24 05.45.44.226000000 PM
 
 # Q3:
 
@@ -86,6 +95,7 @@ select * from student;
 > Club_id must be generated using a club sequence and the club-name cannot be null.
 > Test the constraints using SQL and show the results.
 > You have to test the primary key and constraint, and the null constraint on 1 column.
+
 ```SQL
 DROP TABLE CLUB;
 -- create club table
@@ -123,6 +133,44 @@ insert into club (club_id, club_name) values (5, '');
 -- check output
 select * from club;
 ```
+#### Q3 Output
+
+> table CLUB dropped.
+> table CLUB created.
+> sequence CLUB_ID_SEQ dropped.
+> sequence CLUB_ID_SEQ created.
+> 1 rows inserted.
+> 1 rows inserted.
+> 1 rows inserted.
+
+> Error starting at line : 27 in command -
+> INSERT INTO CLUB (club_id, club_name)
+> VALUES (1,'HIKING')
+> Error report -
+> SQL Error: ORA-00001: unique constraint (STUDENT.SYS_C007307) violated
+> 00001. 00000 -  "unique constraint (%s.%s) violated"
+> *Cause:    An UPDATE or INSERT statement attempted to insert a duplicate key.
+>            For Trusted Oracle configured in DBMS MAC mode, you may see
+>            this message if a duplicate entry exists at a different level.
+> *Action:   Either remove the unique restriction or do not insert the key.
+>    CLUB_ID CLUB_NAME
+> ---------- --------------------
+>          1 HIKING
+>          2 RUNNING
+>          3 TENNIS
+
+> Error starting at line : 32 in command -
+> insert into club (club_id, club_name) values (5, '')
+> Error report -
+> SQL Error: ORA-01400: cannot insert NULL into ("STUDENT"."CLUB"."CLUB_NAME")
+> 01400. 00000 -  "cannot insert NULL into (%s)"
+> *Cause:
+> *Action:
+>    CLUB_ID CLUB_NAME
+> ---------- --------------------
+>          1 HIKING
+>          2 RUNNING
+>          3 TENNIS
 
 # Q4:
 
@@ -132,6 +180,7 @@ select * from club;
 > message_from & message_to are student_ids.
 > Test the constraints using SQL and show the results.
 > You have to test the foreign key and constraint, and the null constraint on 1 column.
+
 ```SQL
 -- Q4
 -- create messages table
@@ -191,13 +240,13 @@ student_id number primary key,
 time number,
 
 foreign key (student_id) references student(student_id));
-
 ```
 
 >    You will also need to create a table called Club_Time_Spent (student_id, time_in_minutes).
 > This table also should have the foreign key constraints and the null constraints.
 > You will need to do data wrangling to store the time in minutes.
 > You will use this table in an SQL later.
+
 ```SQL
 
 -- Q4 cont.
@@ -209,12 +258,26 @@ create table club_time_spent(
     time_in_minutes time primary key,
     student_id number,
 foreign key (student_id) references student(student_id));
+```
 
+##### Club Table
 
 ```
+table CLUB_ACTIVITY_LOG dropped.
+table CLUB_ACTIVITY_LOG created.
+1 rows inserted.
+1 rows inserted.
+```
+
+| STUDENT_ID | TIME_IN_MINUTES |
+|------------|-----------------|
+|            | 90              |
+| 2          | 60              |
+
 # Q5:
 
 > From the table in Q1 create the phone table (student_id, phone, phone_purpose) Phone_purpose can only be cell, work or home. Test the constraints using SQL and show the results. You have to test the foreign key constraint, and the constraint on the phone_purpose column.
+
 ```SQL
 --Q5
 --student id, phone_num, phone_purpose(
@@ -295,9 +358,11 @@ select * from student_history;
 > OLD_STUDENT_ID OLD_NAME             TIME_STAMP
 > -------------- -------------------- -------------------------------
 >              1 Bob Saget            06-SEP-24 05.45.44.226000000 PM
+
 # Q7:
 
 :> Create a View that shows the message-from (student), the message-to (student), their dobs, their phone and the message sent, and order by dob of message-from student. dob is a date column and not a string. Do a select from the View to show all the rows. dob should show as MM-DD-YYYY and phone-number should show in the format XXX-XXX-XXXX.
+
 ```SQL
 -- create view
 /*
@@ -402,6 +467,7 @@ public class TestDBMetaData {
         }
     }
 }
+
 ```
 
 ```Powershell
