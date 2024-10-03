@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="RETAIL_ORDER" directorySegmentName="seg_0" id="7B055E20-D2CF-C092-A003-CD429DE2F2FB">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="OrderNumber" id="02E9567C-1A66-40C0-B33B-29E3B4D4E506">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OrderMonth" id="71A9F7FB-ACCF-194D-1A28-777C812B3E92">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OrderTotal" id="7A14E9F3-2BCC-4410-6396-10ADE4253566">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="StoreZip" id="922BAD4A-F451-76BB-B94E-C99FFB254B1D">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="StoreNumber" id="9A01D9D8-22B0-DBF2-7042-D59C8073458F">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OrderYear" id="FE7481AC-763C-F0AF-30CA-F6C2F1AF80D5">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RETAIL_ORDER_PK" id="181FAF8B-55D4-365E-3FAA-F685666B2945">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

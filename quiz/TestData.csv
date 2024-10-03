@@ -1,0 +1,15 @@
+name,dob,phone,phone_purpose,club,club_hours_spent,message_to,message
+John,7/9/2000,8311111111,cell,,,,
+Mary,,,,,,Jane,hello
+John,,,,Hiking,20h:15m,,
+Jane,9/2/1995,8312222222,cell,,,,
+Jane,,,,,,Mary,I am going on a run
+Mary,,,,Tennis,25h:15m,,
+Mary,1/1/2002,8313333333,work,,,,
+Jane,,,,Running,30h:10m,,
+Mary,,,,Running,25h:15m,,
+John,,,,Tennis,10h:25m,,
+John,,,,,,Mary,Tennis?
+Jane,9/2/1995,8312225555,work,,,,
+Mary,1/1/2002,8313336666,cell,,,,
+John,7/9/2000,8311112222,work,,,,

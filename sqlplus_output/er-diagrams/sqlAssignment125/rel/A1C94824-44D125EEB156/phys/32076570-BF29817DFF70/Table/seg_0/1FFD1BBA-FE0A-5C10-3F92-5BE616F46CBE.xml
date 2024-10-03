@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="BUYER" directorySegmentName="seg_0" id="1FFD1BBA-FE0A-5C10-3F92-5BE616F46CBE">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Supervisor" id="B5DFFA87-597D-3F28-8386-593BADF64213">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Position" id="ECE2C582-8663-6AB9-0EAF-2A08FE777226">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Department" id="EDDFC5D5-5090-D1B3-9E03-0027F18A70C4">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BuyerName" id="F7A43513-49A1-98F0-1E5D-2640C73036A3">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="BUYER_SUPERVISOR_FK" id="0BF064F8-AB7B-C280-8EFF-6F14F17743EC">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BUYER_PK" id="F6811034-9FC7-602A-9114-E5AE51FFB6F7">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

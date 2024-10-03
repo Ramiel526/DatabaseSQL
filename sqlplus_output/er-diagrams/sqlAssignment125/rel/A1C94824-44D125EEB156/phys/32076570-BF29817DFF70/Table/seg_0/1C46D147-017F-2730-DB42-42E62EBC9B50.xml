@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="WAREHOUSEv1" directorySegmentName="seg_0" id="1C46D147-017F-2730-DB42-42E62EBC9B50">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SquareFeet" id="37CFE9EF-4E18-A7D8-B06E-95B77969F5F2">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WarehouseCity" id="3B95844E-6624-4F31-C702-8F5609E61256">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WarehouseID" id="407AB7D2-3265-D57B-C27F-81358B2102CB">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WarehouseState" id="BF0BDA2F-0C75-A6F6-2801-98497F56E1AC">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Manager" id="EB8787C9-8182-5D60-873B-A3141E5CA72F">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="WAREHOUSE_PK" id="883BE150-755D-447B-86CB-EBE922596906">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ORDER_ITEM" directorySegmentName="seg_0" id="9A7B47A4-EEB3-C875-0ADA-82A7162E3E1B">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="OrderNumber" id="6CA404CE-57AD-0B23-C7B3-C000E7320F0E">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ExtendedPrice" id="8070E9E9-699B-F6C5-AA6B-5EC2471AF7FA">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SKU" id="81CEF4DC-EC99-C5DB-56D4-9A24D2A124CF">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Quantity" id="8871AE18-A396-E602-1176-DFBE6CB49645">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Price" id="8D5098B8-8C5C-3A3C-DB0C-57E09AE7278F">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SKU_Relationship" id="1E6D75C6-DE3F-5695-BE8D-673A2D15DE1E">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RETAIL_ORDER_Relationship" id="1F54D758-2584-2407-BAB4-6D6B9CDE9D61">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ORDER_ITEM_PK" id="5F3B8AA3-E631-DC28-8C51-1FCDF0C82700">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

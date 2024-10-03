@@ -1,8 +1,8 @@
 -- create table student phone
 create table student_phone (
 	studentID number,
-	phoneNumber Varchar2(15),
-	phoneType Char(1),
+	phoneNumber varchar2(10),
+	phoneType char(1),
 	primary key (StudentID, PhoneNumber)
 );
 
@@ -13,6 +13,6 @@ insert into student_phone (studentID, phoneNumber, phoneType) values (3, '589-10
 insert into student_phone (studentID, phoneNumber, phoneType) values (student_seq.nextval, '555-8765', 'W');
 
 -- verify results
-select * from student_phone; 
+select * from student_phone;
 
 

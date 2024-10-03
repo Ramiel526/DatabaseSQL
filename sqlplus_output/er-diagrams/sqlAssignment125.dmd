@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="sqlAssignment125" id="3888F726-4478-D1FA-6602-AB203DEEBEE1" version="3.5">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:24:44 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3888F726-4478-D1FA-6602-AB203DEEBEE1</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C827CC6A-CAF6-828C-5FB2-749A94BC2C41">
+<designStoragePath>C:\CapeCoddCreateTables</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="7F124D1F-7657-56AC-2EE6-C6D13E3FD543">
+<designStoragePath>C:\CapeCoddCreateTables</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

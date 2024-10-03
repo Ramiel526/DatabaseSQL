@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="81B0CE47-82C5-FF5B-5189-D74459601227" name="WAREHOUSE_Relationship">
+<sourceDDLFile>cape_codd_outdoorSports_create.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>9EAE89F1-62F4-78C6-330D-9E59400645C8</importedID>
+<containerWithKeyObject>A12DC96D-3C0D-A420-335D-55236578F5A9</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>3E471DB7-EAC1-80E9-DED2-DF6BB66D420C</localFKIndex>
+<keyObject>ACF6D4CD-3CA8-8609-5FAE-F87CC5DEBFAA</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

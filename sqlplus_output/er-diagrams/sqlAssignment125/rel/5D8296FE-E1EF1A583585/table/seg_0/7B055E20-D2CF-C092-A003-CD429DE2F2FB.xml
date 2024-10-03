@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B055E20-D2CF-C092-A003-CD429DE2F2FB" name="RETAIL_ORDER">
+<sourceDDLFile>CapeCoddCreateTables.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>CD0469C3-7479-091B-36AA-206F84E54A63</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OrderNumber" id="02E9567C-1A66-40C0-B33B-29E3B4D4E506">
+<sourceDDLFile>CapeCoddCreateTables.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>2DEAFE43-4726-4A89-B610-F70D587C365C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CD9C397-ECAE-7079-7432-32D50594258B</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StoreNumber" id="9A01D9D8-22B0-DBF2-7042-D59C8073458F">
+<sourceDDLFile>CapeCoddCreateTables.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>1D78129D-4552-AF84-C7CA-4EFD95D72EA5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CD9C397-ECAE-7079-7432-32D50594258B</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StoreZip" id="922BAD4A-F451-76BB-B94E-C99FFB254B1D">
+<sourceDDLFile>CapeCoddCreateTables.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>94189882-34DC-71C1-1A8A-DC868A85B2DE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>D25A656B-82FF-83D7-5723-72B128A7C02C</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OrderMonth" id="71A9F7FB-ACCF-194D-1A28-777C812B3E92">
+<sourceDDLFile>CapeCoddCreateTables.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>C78A69FA-7CCF-4ED3-164F-FC7E65C293C3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>89B8635C-97E0-22FB-96FE-5AA338BDA2CD</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OrderYear" id="FE7481AC-763C-F0AF-30CA-F6C2F1AF80D5">
+<sourceDDLFile>CapeCoddCreateTables.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>3889116A-CDD0-6400-D322-4041F86CB8A9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CD9C397-ECAE-7079-7432-32D50594258B</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OrderTotal" id="7A14E9F3-2BCC-4410-6396-10ADE4253566">
+<sourceDDLFile>CapeCoddCreateTables.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>ED98E3F0-4D2B-84A6-6FB3-88B75E3C3060</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7AFEEC0C-A10D-CCFE-F946-01F6C879A9BE</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="181FAF8B-55D4-365E-3FAA-F685666B2945" name="RETAIL_ORDER_PK">
+<sourceDDLFile>CapeCoddCreateTables.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>1F07DF95-05EC-F514-B628-09B1AA68E10F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02E9567C-1A66-40C0-B33B-29E3B4D4E506"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

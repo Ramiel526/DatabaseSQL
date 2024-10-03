@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F77B2BF2-7A1F-1BA4-5347-0F8C249E969C" name="WAREHOUSEv1">
+<sourceDDLFile>cape_codd_outdoorSports_create.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>B0960946-AC74-006C-1658-7E52996800A2</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="WarehouseID" id="C6B46455-D2E6-B9DF-6FE4-7120EFD99438">
+<sourceDDLFile>cape_codd_outdoorSports_create.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>5BB7116C-BBF9-3C1F-27FB-CC64B83071A9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CD9C397-ECAE-7079-7432-32D50594258B</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WarehouseCity" id="E2C5C78B-C170-EC4F-7F7D-F350D5350501">
+<sourceDDLFile>cape_codd_outdoorSports_create.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>1AF44646-BF38-97E7-B5B0-FE80C0D59A05</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>7085A8A0-28F6-41FF-543D-F9876D38A3DD</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WarehouseState" id="C195927F-3B69-979B-6CA5-37B801035E49">
+<sourceDDLFile>cape_codd_outdoorSports_create.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>A1ECFB3C-EC54-5106-9061-245A5B989117</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>5A5D23E5-54F9-871F-1599-5225F3E2CBBE</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Manager" id="F2228913-B935-8B9D-1A96-86B537374AA5">
+<sourceDDLFile>cape_codd_outdoorSports_create.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>0E466745-6549-EB10-371E-7705D472C4B6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>7CE4D23E-48EB-B22A-97E0-7AAF1E65576E</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SquareFeet" id="68D30C38-5B8C-B34C-53F7-DCCE0026397E">
+<sourceDDLFile>cape_codd_outdoorSports_create.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>28122B42-7D2E-939F-8A06-A213488A8094</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CD9C397-ECAE-7079-7432-32D50594258B</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="28F7490F-0C65-CECB-6907-4F758B0C57B6" name="WAREHOUSE_PK">
+<sourceDDLFile>cape_codd_outdoorSports_create.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>6DFDCFF2-95FD-C0D6-B9D1-A77A15EB6E88</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6B46455-D2E6-B9DF-6FE4-7120EFD99438"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

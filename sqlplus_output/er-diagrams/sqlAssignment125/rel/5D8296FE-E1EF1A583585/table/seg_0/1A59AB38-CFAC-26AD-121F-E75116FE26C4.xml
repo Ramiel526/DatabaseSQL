@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A59AB38-CFAC-26AD-121F-E75116FE26C4" name="ORDER_ITEM">
+<sourceDDLFile>CapeCoddCreateTables.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>77C37B71-84D9-8DC1-9999-EAD70BEB76A4</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OrderNumber" id="E30D629B-4C1C-EFDE-12A5-A15A5EA5B5B1">
+<sourceDDLFile>CapeCoddCreateTables.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>4FD52F30-82BA-20FC-8154-601EE55EB0C1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CD9C397-ECAE-7079-7432-32D50594258B</domain>
+<delegate>02E9567C-1A66-40C0-B33B-29E3B4D4E506</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="620634B5-087A-EF74-5E90-55134E4A7063" referredColumn="02E9567C-1A66-40C0-B33B-29E3B4D4E506"/>
+</associations>
+</Column>
+<Column name="SKU" id="FC61CEC8-E939-13F2-6875-E84AABC583A2">
+<sourceDDLFile>CapeCoddCreateTables.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>7332AC9A-0CD5-5EF2-F4AF-E4562FA08CCA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CD9C397-ECAE-7079-7432-32D50594258B</domain>
+<delegate>6C7CB272-60F9-9C6E-DDBC-0FE77ABF9662</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="764E07BC-61E0-5D71-1B1E-823537858452" referredColumn="6C7CB272-60F9-9C6E-DDBC-0FE77ABF9662"/>
+</associations>
+</Column>
+<Column name="Quantity" id="A5498A87-94F3-8D24-09B1-FBA2117EE60A">
+<sourceDDLFile>CapeCoddCreateTables.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>B6DEC4A7-483C-5EDB-E3A9-F871B29F3B32</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CD9C397-ECAE-7079-7432-32D50594258B</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Price" id="D9599304-B72A-CBA9-DE14-F6A4BE35FFC4">
+<sourceDDLFile>CapeCoddCreateTables.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>6879FF07-FB12-888C-7CD4-A397EFFC409A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7AFEEC0C-A10D-CCFE-F946-01F6C879A9BE</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ExtendedPrice" id="13AD5378-C500-5517-BB01-3234DF5361E3">
+<sourceDDLFile>CapeCoddCreateTables.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>45AC6A98-80C3-B59E-DAD6-EA461BDACE22</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7AFEEC0C-A10D-CCFE-F946-01F6C879A9BE</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65FCB24A-1D2C-C1F5-B413-39E4C1FB72C4" name="ORDER_ITEM_PK">
+<sourceDDLFile>CapeCoddCreateTables.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>15E5BCD3-EF81-FE77-B3B0-FC178286F201</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC61CEC8-E939-13F2-6875-E84AABC583A2"/>
+<colUsage columnID="E30D629B-4C1C-EFDE-12A5-A15A5EA5B5B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="081BF6C8-8718-3D89-BC3A-C96EA34AA2FD" name="RETAIL_ORDER_Relationship">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E30D629B-4C1C-EFDE-12A5-A15A5EA5B5B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="745AFAC8-62D7-CF2A-EF00-0B020BF11E1B" name="SKU_Relationship">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC61CEC8-E939-13F2-6875-E84AABC583A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

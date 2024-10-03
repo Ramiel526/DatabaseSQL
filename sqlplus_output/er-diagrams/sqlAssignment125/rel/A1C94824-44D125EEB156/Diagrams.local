@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="0248E141-F122-82C6-62A3-613609D38B83" name="CapeCoddCreateTables" visible="false"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

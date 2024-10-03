@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7A68265-89AE-ADBF-FFBF-B9C1C9706A4A" name="CATALOG_SKU_2015">
+<sourceDDLFile>CapeCoddCreateTables.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>855FBA7C-ADF0-CB32-4928-C7C70F1FEA1E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CatalogID" id="4646F3E0-81D2-591E-B2DD-AC912650A779">
+<sourceDDLFile>CapeCoddCreateTables.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>5E82B481-96CD-AFB8-46BA-1E6FF35974D8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CD9C397-ECAE-7079-7432-32D50594258B</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SKU" id="11014AE4-2AAC-8CEE-E938-9C79DA6AE436">
+<sourceDDLFile>CapeCoddCreateTables.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>45F31D25-8F7C-2107-68ED-B46DD485AC7D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CD9C397-ECAE-7079-7432-32D50594258B</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SKU_Description" id="118D256D-E08C-5158-9094-4A2C3FFE7914">
+<sourceDDLFile>CapeCoddCreateTables.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>3C14E6D5-FB43-99DA-0378-88BAE51FF90C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>7CE4D23E-48EB-B22A-97E0-7AAF1E65576E</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Department" id="954BF9FF-49EA-F81F-055E-76D8031E4129">
+<sourceDDLFile>CapeCoddCreateTables.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>BD92AF58-19CD-D721-5CCB-8D46006173E4</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>7085A8A0-28F6-41FF-543D-F9876D38A3DD</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CatalogPage" id="90D5E8F6-A6F4-7F32-82C1-B4661BF4A99A">
+<sourceDDLFile>CapeCoddCreateTables.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>2218BEB9-F149-E1F5-6154-25B0666A8864</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CD9C397-ECAE-7079-7432-32D50594258B</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DateOnWebSite" id="81859562-4F36-469E-4804-F27755749D87">
+<sourceDDLFile>CapeCoddCreateTables.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>DD6594BB-0E20-972D-62DF-06890CDDB6D2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>AFE859DE-3997-EACB-CDE3-B3D0EBD94533</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="74BFAFF4-F7A3-B241-24E1-F7A98AA0D7EA" name="CSKU15_PK">
+<sourceDDLFile>CapeCoddCreateTables.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>23F57138-EE89-B68E-EAC9-523876247A04</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4646F3E0-81D2-591E-B2DD-AC912650A779"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

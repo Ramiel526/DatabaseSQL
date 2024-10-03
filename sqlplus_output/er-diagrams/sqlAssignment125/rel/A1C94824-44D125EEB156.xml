@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="CapeCoddCreateTables" id="A1C94824-6A6A-27DC-3A5F-44D125EEB156" mainViewID="0248E141-F122-82C6-62A3-613609D38B83">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:32:17 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>CapeCoddCreateTables.sql</fileName>
+<pathName>C:\dev\sqlDev\SQL_scripts</pathName>
+<dbType>9</dbType>
+</importDDLFileStamp>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>cape_codd_outdoorSports_create.sql</fileName>
+<pathName>C:\dev\sqlDev\SQL_scripts</pathName>
+<dbType>9</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="2751DE2D-9B80-E009-6015-17C1426DA553" name="BUYER" seqName="seg_0"/>
+   <object objectType="Table" objectID="8C2D67F9-9057-BBED-1006-964905E63E51" name="CATALOG_SKU_2013" seqName="seg_0"/>
+   <object objectType="Table" objectID="9C63AE45-16F8-B972-6B9A-A4793D253655" name="CATALOG_SKU_2014" seqName="seg_0"/>
+   <object objectType="Table" objectID="E7A68265-89AE-ADBF-FFBF-B9C1C9706A4A" name="CATALOG_SKU_2015" seqName="seg_0"/>
+   <object objectType="Table" objectID="99E93AF0-6433-0150-09B2-DB008E877D0E" name="CATALOG_SKU_2016" seqName="seg_0"/>
+   <object objectType="Table" objectID="0CB38E4F-64C2-CFCF-916A-064CBD296E93" name="CATALOG_SKU_2017" seqName="seg_0"/>
+   <object objectType="Table" objectID="832ADC11-7B17-C342-96F9-5E91B94FC9BB" name="CATALOG_SKU_2018" seqName="seg_0"/>
+   <object objectType="Table" objectID="9E27DE44-87A5-D5A7-4962-551867340BAB" name="INVENTORY" seqName="seg_0"/>
+   <object objectType="Table" objectID="4BDBB329-62CC-90CE-44CD-3A1116868A30" name="INVENTORYv1" seqName="seg_0"/>
+   <object objectType="Table" objectID="1A59AB38-CFAC-26AD-121F-E75116FE26C4" name="ORDER_ITEM" seqName="seg_0"/>
+   <object objectType="Table" objectID="D9645C83-5A39-FD0C-A1A2-8436F4F6767D" name="ORDER_ITEMv1" seqName="seg_0"/>
+   <object objectType="Table" objectID="7B055E20-D2CF-C092-A003-CD429DE2F2FB" name="RETAIL_ORDER" seqName="seg_0"/>
+   <object objectType="Table" objectID="7823ACFB-C0CF-33BD-C117-DA02A247CA5E" name="RETAIL_ORDERv1" seqName="seg_0"/>
+   <object objectType="Table" objectID="99CF4F8E-6542-7501-06CB-06A40DC02565" name="SKU_DATA" seqName="seg_0"/>
+   <object objectType="Table" objectID="A4D6AF29-F1C8-D9D0-B816-9FFA4164D6B9" name="SKU_DATAv1" seqName="seg_0"/>
+   <object objectType="Table" objectID="D1E2E59B-BFE5-F57C-16F1-B7071D6ABE5F" name="WAREHOUSE" seqName="seg_0"/>
+   <object objectType="Table" objectID="F77B2BF2-7A1F-1BA4-5347-0F8C249E969C" name="WAREHOUSEv1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="CC12D118-EFE5-F32E-E98D-679B467FA621" name="BUYER_SUPERVISOR_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="156F3248-C6F7-3F34-3F49-E56257BB15C9" name="WAREHOUSE_Relationship" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9E7A3E36-5404-8169-CA28-AB138856DC67" name="RETAIL_ORDER_Relationship" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="620634B5-087A-EF74-5E90-55134E4A7063" name="RETAIL_ORDER_Relationship" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="BB5387C1-50B1-27FE-C270-DD225EE852F3" name="SKU_DATA_EMP_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="17846546-25AE-31E8-A38D-587470C8758A" name="SKU_DATA_Relationship" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="01358383-33C0-2C71-7DBE-49BFAB649A41" name="SKU_DATA_Relationship" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="7BD25B35-393C-4A59-C45D-BB1CCCFA1A8C" name="SKU_Relationship" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="764E07BC-61E0-5D71-1B1E-823537858452" name="SKU_Relationship" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="1642C501-8898-0B42-8B4F-898D5326A068" name="WAREHOUSE_Relationship" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

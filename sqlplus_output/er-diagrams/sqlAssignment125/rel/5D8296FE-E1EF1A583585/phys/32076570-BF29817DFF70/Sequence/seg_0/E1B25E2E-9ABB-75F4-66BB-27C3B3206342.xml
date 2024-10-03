@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="seqCSKU13" directorySegmentName="seg_0" id="E1B25E2E-9ABB-75F4-66BB-27C3B3206342">
+<sourceDDLFile>CapeCoddCreateTables.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:36:34 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<incrementBy>1</incrementBy>
+<startWith>20130001</startWith>
+</SequenceOraclev10g>

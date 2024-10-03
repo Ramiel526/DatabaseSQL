@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="0CB38E4F-64C2-CFCF-916A-064CBD296E93" name="CATALOG_SKU_2017" seqName="seg_0"/>
+   <object objectType="Table" objectID="1A59AB38-CFAC-26AD-121F-E75116FE26C4" name="ORDER_ITEM" seqName="seg_0"/>
+   <object objectType="Table" objectID="2751DE2D-9B80-E009-6015-17C1426DA553" name="BUYER" seqName="seg_0"/>
+   <object objectType="Table" objectID="4BDBB329-62CC-90CE-44CD-3A1116868A30" name="INVENTORYv1" seqName="seg_0"/>
+   <object objectType="Table" objectID="7823ACFB-C0CF-33BD-C117-DA02A247CA5E" name="RETAIL_ORDERv1" seqName="seg_0"/>
+   <object objectType="Table" objectID="7B055E20-D2CF-C092-A003-CD429DE2F2FB" name="RETAIL_ORDER" seqName="seg_0"/>
+   <object objectType="Table" objectID="832ADC11-7B17-C342-96F9-5E91B94FC9BB" name="CATALOG_SKU_2018" seqName="seg_0"/>
+   <object objectType="Table" objectID="8C2D67F9-9057-BBED-1006-964905E63E51" name="CATALOG_SKU_2013" seqName="seg_0"/>
+   <object objectType="Table" objectID="99CF4F8E-6542-7501-06CB-06A40DC02565" name="SKU_DATA" seqName="seg_0"/>
+   <object objectType="Table" objectID="99E93AF0-6433-0150-09B2-DB008E877D0E" name="CATALOG_SKU_2016" seqName="seg_0"/>
+   <object objectType="Table" objectID="9C63AE45-16F8-B972-6B9A-A4793D253655" name="CATALOG_SKU_2014" seqName="seg_0"/>
+   <object objectType="Table" objectID="9E27DE44-87A5-D5A7-4962-551867340BAB" name="INVENTORY" seqName="seg_0"/>
+   <object objectType="Table" objectID="A4D6AF29-F1C8-D9D0-B816-9FFA4164D6B9" name="SKU_DATAv1" seqName="seg_0"/>
+   <object objectType="Table" objectID="D1E2E59B-BFE5-F57C-16F1-B7071D6ABE5F" name="WAREHOUSE" seqName="seg_0"/>
+   <object objectType="Table" objectID="D9645C83-5A39-FD0C-A1A2-8436F4F6767D" name="ORDER_ITEMv1" seqName="seg_0"/>
+   <object objectType="Table" objectID="E7A68265-89AE-ADBF-FFBF-B9C1C9706A4A" name="CATALOG_SKU_2015" seqName="seg_0"/>
+   <object objectType="Table" objectID="F77B2BF2-7A1F-1BA4-5347-0F8C249E969C" name="WAREHOUSEv1" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="E1B25E2E-9ABB-75F4-66BB-27C3B3206342" name="seqCSKU13" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="DACD9700-F7B8-F161-F434-9DAE65697CDE" name="seqCSKU14" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="42CDCD64-05C4-35E5-99B1-63B51B9A326E" name="seqCSKU15" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="9A2A831B-51E3-0FE1-D256-C7821506D003" name="seqCSKU16" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="019E4B33-676E-C50B-EE36-41F51F56AA35" name="seqCSKU17" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="89105480-CC37-6977-DAA4-4A2FAFB1D327" name="seqCSKU18" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>

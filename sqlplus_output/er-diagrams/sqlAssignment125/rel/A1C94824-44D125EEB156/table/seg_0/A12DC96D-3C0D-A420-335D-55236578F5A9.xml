@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A12DC96D-3C0D-A420-335D-55236578F5A9" name="INVENTORYv1">
+<sourceDDLFile>cape_codd_outdoorSports_create.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>C136B3C9-0B19-E60E-89A2-314AE44B6DEA</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="WarehouseID" id="350EA5E7-A45A-2521-F5DD-1D7AE47B1138">
+<sourceDDLFile>cape_codd_outdoorSports_create.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>AF19BC0F-C639-5AE9-7C69-CAC2F7439540</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CD9C397-ECAE-7079-7432-32D50594258B</domain>
+<delegate>B16DD388-1671-F921-89CD-17CC2B548F1A</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81B0CE47-82C5-FF5B-5189-D74459601227" referredColumn="B16DD388-1671-F921-89CD-17CC2B548F1A"/>
+</associations>
+</Column>
+<Column name="SKU" id="0009F61C-C9B4-127C-BF0A-2FF174BC08D6">
+<sourceDDLFile>cape_codd_outdoorSports_create.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>9601E10D-6B0B-F4E2-3123-FEC9F1CDE601</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CD9C397-ECAE-7079-7432-32D50594258B</domain>
+<delegate>208F75CD-E6A6-477A-60E1-795DA33AE6CC</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9552DEAC-42CD-2EA3-CE50-92D38105355C" referredColumn="208F75CD-E6A6-477A-60E1-795DA33AE6CC"/>
+</associations>
+</Column>
+<Column name="SKU_Description" id="B7E71A8B-5ADC-6388-9C20-0B23D966D31E">
+<sourceDDLFile>cape_codd_outdoorSports_create.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>A73EE80B-7075-9C22-724A-5ED7092EB025</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>7CE4D23E-48EB-B22A-97E0-7AAF1E65576E</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QuantityOnHand" id="D82DACC9-7B45-2F14-B05A-7827EEF07885">
+<sourceDDLFile>cape_codd_outdoorSports_create.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>0CB5AC61-03C3-16AD-DA97-2BDEAE5A2D7B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CD9C397-ECAE-7079-7432-32D50594258B</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QuantityOnOrder" id="ADA6A96C-55E7-2C11-50ED-25A992EAAA90">
+<sourceDDLFile>cape_codd_outdoorSports_create.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>4480A496-FCB7-EEDA-32E0-BC8DCC68CB79</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CD9C397-ECAE-7079-7432-32D50594258B</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4882A9B-2A56-0494-87B4-536C3927B458" name="INVENTORY_PK">
+<sourceDDLFile>cape_codd_outdoorSports_create.sql</sourceDDLFile>
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<importedID>0431F724-96F2-6B8F-5E08-A56E987F2864</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="350EA5E7-A45A-2521-F5DD-1D7AE47B1138"/>
+<colUsage columnID="0009F61C-C9B4-127C-BF0A-2FF174BC08D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB1207F0-B299-320D-4DF0-FC6AE94CA00B" name="SKU_DATA_Relationship">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0009F61C-C9B4-127C-BF0A-2FF174BC08D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E471DB7-EAC1-80E9-DED2-DF6BB66D420C" name="WAREHOUSE_Relationship">
+<createdBy>shogun</createdBy>
+<createdTime>2024-09-15 00:33:00 UTC</createdTime>
+<ownerDesignName>sqlAssignment125</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="350EA5E7-A45A-2521-F5DD-1D7AE47B1138"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

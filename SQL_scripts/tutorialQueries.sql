@@ -14,7 +14,7 @@ SELECT CUSTOMER_NAME, CITY, BALANCE FROM customer WHERE CITY = 'Fullton';
 SELECT CUSTOMER_NAME, CITY, BALANCE FROM customer WHERE CITY <> 'Fullton';
 
 -- filtering data w/ WHERE on date and number columns
--- query 6 
+-- query 6
 --single column
 SELECT ORDER_NUM, ORDER_DATE, CUSTOMER_NUM FROM orders ORDER BY ORDER_DATE ASC;
 
@@ -27,7 +27,7 @@ SELECT ORDER_NUM, ORDER_DATE, CUSTOMER_NUM FROM orders ORDER BY ORDER_DATE ASC;
 -- Sort orders by date in descending order and then by order number in ascending order
 SELECT ORDER_NUM, ORDER_DATE, CUSTOMER_NUM FROM orders ORDER BY ORDER_DATE DESC, ORDER_NUM ASC;
 -- 'and' & 'or' operators are used sql to combine multiple conditions in a 'where' clause
--- and requires all conditions while or requries at least one. 
+-- and requires all conditions while or requries at least one.
 SELECT CUSTOMER_NAME, CITY, BALANCE FROM customer WHERE CITY = 'Fullton' AND BALANCE > 1000;
 SELECT CUSTOMER_NAME, CITY, BALANCE FROM customer WHERE CITY = 'Fullton' OR BALANCE > 1000;
 
@@ -50,7 +50,7 @@ SELECT CUSTOMER_NAME, CITY FROM customer WHERE CITY LIKE 'C_ngaree';
 --multi char wildcards
 SELECT CUSTOMER_NAME, CITY FROM customer WHERE CUSTOMER_NAME LIKE '%Shop%';
 
---my experiment 
+--my experiment
 select customer_name, city from customer where city like '%field%';
 
 -- Null
