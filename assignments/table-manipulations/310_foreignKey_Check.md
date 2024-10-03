@@ -1,4 +1,4 @@
-## check constraints
+## check foriegn key constraints
 
 ```SQL
 -- Step 1: Add Foreign Key constraints for club_roster and student_roster
