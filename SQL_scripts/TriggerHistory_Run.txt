@@ -1,0 +1,40 @@
+
+Table PRODUCT dropped.
+
+
+Table PRODUCT_PRICE_HISTORY dropped.
+
+
+Table PRODUCT created.
+
+
+Table PRODUCT_PRICE_HISTORY created.
+
+
+Commit complete.
+
+
+Trigger PRICE_HISTORY_TRIGGER compiled
+
+
+1 row inserted.
+
+
+PRODUCT_ID PRODUCT_NAME                     SUPPLIER_NAME                    UNIT_PRICE
+---------- -------------------------------- -------------------------------- ----------
+       100 phone                            xyz                                     500
+
+no rows selected
+
+1 row updated.
+
+
+PRODUCT_ID PRODUCT_NAME                     SUPPLIER_NAME                    UNIT_PRICE
+---------- -------------------------------- -------------------------------- ----------
+       100 phone                            xyz                                     800
+
+
+PRODUCT_ID PRODUCT_NAME                     SUPPLIER_NAME                    UNIT_PRICE
+---------- -------------------------------- -------------------------------- ----------
+       100 phone                            xyz                                     500
+
