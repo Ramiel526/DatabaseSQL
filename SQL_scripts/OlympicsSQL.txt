@@ -1,0 +1,17 @@
+Create table OlympicM1000 as select location, year, name, nationality, to_number(substr(result,1,2))*60 + to_number(substr(result,4,4))as Result_seconds, medal from olympic10000M
+select location, year, name, nationality, to_number(substr(result,1,2))*60 + to_number(substr(result,4,4))as Result_seconds, medal from olympic10000M
+select result, to_number(substr(result,1,2))*60 + to_number(substr(result,4,4))as Result_seconds from olympic10000M
+select result, to_number(substr(result,1,2))*60 + to_number(substr(result,4,4)) from olympic10000M
+select result, to_number(substr(result,1,2)), to_number(substr(result,4,4)) from olympic10000M
+select result, to_number(substr(result,1,2)), substr(result,4,4) from olympic10000M
+select result, substr(result,1,2), substr(result,4,4) from olympic10000M
+select result, substr(result,0,2), substr(result,4,4) from olympic10000M
+select result, substr(result,0,2), substr(result,2,4) from olympic10000M
+select result, substr(result,0,2) from olympic10000M
+select result, substr(result,2) from olympic10000M
+select result from olympic10000M
+update olympic10000M set Medal = 'N' where medal like '%S%' or medal like '%B%'
+update olympic10000M set Medal = 'Y' where medal like '%G%'
+select medal, count(*) from OLYMPIC10000M group by medal order by medal
+Create table Olympic10000M as select Location, year, name, NATIONALITY, result, medal from OLYMPICS where event like '%10000%'
+select * from OLYMPICS where event like '%10000%'
